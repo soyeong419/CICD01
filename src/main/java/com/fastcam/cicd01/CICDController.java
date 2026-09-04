@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CICDController {
     @GetMapping("/")
     public String index() {
-        return "<h1>Welcome CICD World</h1>";
+        return "<h1>Welcome to Github Action World</h1>";
     }
 }
